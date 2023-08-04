@@ -17,12 +17,12 @@ class IndexView(generic.ListView):
         return Question.objects.order_by("-pub_date")[:5]
 
 
-class DetailView(generic.ListView):
+class DetailView(generic.DetailView):
     model = Question
     template_name = "polls/detail.html"
 
 
-class ResultsView(generic.ListView):
+class ResultsView(generic.DetailView):
     model = Question
     template_name = "polls/results.html"
 
