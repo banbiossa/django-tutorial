@@ -9,4 +9,8 @@
 -e file:.
 asgiref==3.7.2
 django==4.2.4
+django-debug-toolbar==4.1.0
 sqlparse==0.4.4
+# The following packages are considered to be unsafe in a requirements file:
+pip==23.2.1
+setuptools==68.0.0

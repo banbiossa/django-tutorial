@@ -3,7 +3,12 @@ name = "django-tutorial"
 version = "0.1.0"
 description = "Add your description here"
 authors = [{ name = "shota shimizu", email = "shota.shimizu@caddi.jp" }]
-dependencies = ["django>=4.2.4"]
+dependencies = [
+    "django>=4.2.4",
+    "django-debug-toolbar>=4.1.0",
+    "pip>=23.2.1",
+    "setuptools>=68.0.0",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
